@@ -1,13 +1,0 @@
-
-ç
-!improbable/player/UnityName.protoschema.improbable.playerimprobable/entity_state.proto"_
-UnityNameDataN
-field1_unity_entity_name (	B¬Ûunity_entity_nameRfield1UnityEntityName"∂
-	UnityName
-Events
-
-Commands2y
-component_extension.schema.improbable.EntityStateÈ (2'.schema.improbable.player.UnityNameDataRcomponentExtension2t
-event_extension.schema.improbable.EntityEventÈ (2*.schema.improbable.player.UnityName.EventsReventExtension2|
-command_extension .schema.improbable.EntityCommandÈ (2,.schema.improbable.player.UnityName.CommandsRcommandExtension:$¬Û 
-improbable.player.UnityNameÈBBUnityNameOuterClass

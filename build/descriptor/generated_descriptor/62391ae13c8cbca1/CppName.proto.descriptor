@@ -1,13 +1,0 @@
-
-÷
-improbable/player/CppName.protoschema.improbable.playerimprobable/entity_state.proto"W
-CppNameDataH
-field1_cpp_entity_name (	BÂócpp_entity_nameRfield1CppEntityName"¬
-CppName
-Events
-
-Commands2w
-component_extension.schema.improbable.EntityStateê (2%.schema.improbable.player.CppNameDataRcomponentExtension2r
-event_extension.schema.improbable.EntityEventê (2(.schema.improbable.player.CppName.EventsReventExtension2z
-command_extension .schema.improbable.EntityCommandê (2*.schema.improbable.player.CppName.CommandsRcommandExtension:"Âó
-improbable.player.CppNameêBBCppNameOuterClass
