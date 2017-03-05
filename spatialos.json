@@ -1,0 +1,8 @@
+{
+    "name": "project_name",
+    "project_version": "0.0.3",
+    "sdk_version": "10.1.0",
+    "dependencies": [
+		{"name": "WorkerSdkSchema", "version": "10.1.0"}
+    ]
+}

@@ -1,0 +1,63 @@
+package improbable;
+
+// IMPORTANT: The definitions in this file must match Proto/improbable/entity_acl.proto.
+// IMPORTANT: Every primitive field in these types must be an option<>.
+
+// A WorkerAttribute represents a capability of a worker -- this is a single "thing" that a worker can do.
+type WorkerAttribute {
+  // One way to describe an atomic capability is to give it a unique name.
+  // For example, this could be "physics", "visual" or "workerId:UnityClient-rekt13".
+  option<string> name = 1;
+}
+
+// A WorkerAttributeSet describes a concrete worker in terms of a set of its capabilities. It is also used
+// (below) to describe a _minimum_ set of capabilities needed by some arbitrary worker in order to
+// fulfill certain criteria.
+type WorkerAttributeSet {
+  // One way to describe a worker's capabilities is to explicitly list all of them.
+  // For example, a particular FSim might state that its capabilities are the set:
+  //  { "physics", "server", "workerId:UnityFsim420" }
+  // meaning that it can do all of the things in the set -- it's capabilities are the _conjunction_ of atomic
+  // capabilities.
+  list<WorkerAttribute> attribute = 1;
+}
+
+// A WorkerRequirementSet describes a set of workers.  We can use a WorkerRequirementSet to, for example, describe the set of
+// workers that a component is allowed to be delegated to.
+type WorkerRequirementSet {
+  // One way to describe a set of workers is to write down a set of the attributes that a worker must satisfy.  We say that
+  // a worker matches this requirement set if it fulfills any of these attribute sets, i.e. the requirement set is a _disjunction_ of attribute sets.
+  // A worker fulfills a particular disjunct if that attribute set is a subset of the WorkerAttributeSet describing the worker.
+  //
+  // In short, a worker W (identified by its WorkerAttributeSet) matches a requirement set P if there exists an attribute set C in P such that
+  // C is a subset of W.
+  //
+  // For example, I might want an entity to be checked out on any worker that can handle "visual" or "physical" things;
+  // to express this I might use the set of attribute sets:
+  // {
+  //   { "visual" },
+  //   { "physical" }
+  // }
+  list<WorkerAttributeSet> attribute_set = 1;
+}
+
+type ComponentAcl {
+  // This defines the kinds of worker that are able to be authoritative on this component.
+  // Previously, this concept was called 'delegation'.
+  map<uint32, WorkerRequirementSet> write = 1;
+}
+
+// The EntityAcl defines what Workers can see and do to entities within the simulation.
+type EntityAclData {
+  // This defines what kinds of worker are able to see this entity.
+  option<WorkerRequirementSet> read = 1;
+
+  // Defines the ACLs for Components of the Entity.
+  // This is currently optional (a component doesn't need to have an ACL).
+  option<ComponentAcl> component_acl = 2;
+}
+
+component EntityAcl {
+  id = 50;
+  data EntityAclData;
+}

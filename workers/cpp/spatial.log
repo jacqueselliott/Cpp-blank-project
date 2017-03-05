@@ -1,0 +1,20 @@
+==========> Opened at 2017-03-04 18:50:03.9884503 +0000 GMT
+debug Executing [C:\Users\Jacques Elliott\AppData\Local\.improbable\bin\plugins\sdk\10.1.0\sdk.exe plugin_export --log_level=warning]
+debug Current directory = C:\spatial\projects\BlankProject\workers\cpp
+debug TOOLBELT_PATH = C:\Users\Jacques Elliott\AppData\Local\.improbable\bin\plugins\sdk\10.1.0
+==========> Opened at 2017-03-04 18:50:04.0204741 +0000 GMT
+debug Executing [spatial.exe worker_package unpack --log_level=debug]
+debug Current directory = C:\spatial\projects\BlankProject\workers\cpp
+debug TOOLBELT_PATH = C:\Users\Jacques Elliott\AppData\Local\.improbable\bin\plugins\sdk\10.1.0
+debug Found version '10.1.0' in file C:\spatial\projects\BlankProject\spatialos.json
+debug In '', spatial [package retrieve worker_sdk windows_x64 10.1.0 C:\Users\Jacques Elliott\AppData\Local\.improbable\toolbelt\cache\worker_package\e5531c83e91628b6b4125b60f2a43dbe1d418fdc\worker_sdk\10.1.0\windows_x64.zip]
+debug Retrieved information for package type 'worker_sdk' with name 'windows_x64' and version '10.1.0'
+debug Successfully downloaded package type 'worker_sdk' with name 'windows_x64', version '10.1.0' and SDK min version '' to 'C:\Users\Jacques Elliott\AppData\Local\.improbable\toolbelt\cache\worker_package\e5531c83e91628b6b4125b60f2a43dbe1d418fdc\worker_sdk\10.1.0\windows_x64.zip'
+debug time="2017-03-04T18:50:04Z" level=info msg="Retrieved information for package type 'worker_sdk' with name 'windows_x64' and version '10.1.0'" cli-version=20170228.143807.fe2f06c 
+time="2017-03-04T18:50:06Z" level=info msg="Successfully downloaded package type 'worker_sdk' with name 'windows_x64', version '10.1.0' and SDK min version '' to 'C:\\Users\\Jacques Elliott\\AppData\\Local\\.improbable\\toolbelt\\cache\\worker_package\\e5531c83e91628b6b4125b60f2a43dbe1d418fdc\\worker_sdk\\10.1.0\\windows_x64.zip'" cli-version=20170228.143807.fe2f06c 
+
+debug Cannot read hash file or package: open worker_sdk\.spatialos_worker_target.json_hash: The system cannot find the path specified.. Re-extracting.
+info Extracting packages 0/1 percent=0
+debug Unpacking windows_x64.zip
+info Extracting packages 1/1 percent=100
+info 'spatial.exe worker_package unpack' succeeded duration=3.2s category=success

@@ -1,0 +1,318 @@
+
+ï
+'improbable/general/WorldTransform.protoschema.improbable.generalimprobable/entity_state.proto!improbable/math/coordinates.proto"t
+WorldTransformData^
+field1_position (2#.schema.improbable.math.CoordinatesBÂópositionÐóRfield1Position"Ô
+WorldTransform
+Events
+
+Commands2
+component_extension.schema.improbable.EntityStateè (2-.schema.improbable.general.WorldTransformDataRcomponentExtension2z
+event_extension.schema.improbable.EntityEventè (20.schema.improbable.general.WorldTransform.EventsReventExtension2‚
+command_extension .schema.improbable.EntityCommandè (22.schema.improbable.general.WorldTransform.CommandsRcommandExtension:*Âó&
+!improbable.general.WorldTransformèBBWorldTransformOuterClass
+÷
+improbable/player/CppName.protoschema.improbable.playerimprobable/entity_state.proto"W
+CppNameDataH
+field1_cpp_entity_name (	BÂócpp_entity_nameRfield1CppEntityName"¬
+CppName
+Events
+
+Commands2w
+component_extension.schema.improbable.EntityStateê (2%.schema.improbable.player.CppNameDataRcomponentExtension2r
+event_extension.schema.improbable.EntityEventê (2(.schema.improbable.player.CppName.EventsReventExtension2z
+command_extension .schema.improbable.EntityCommandê (2*.schema.improbable.player.CppName.CommandsRcommandExtension:"Âó
+improbable.player.CppNameêBBCppNameOuterClass
+
+!improbable/player/UnityName.protoschema.improbable.playerimprobable/entity_state.proto"_
+UnityNameDataN
+field1_unity_entity_name (	BÂóunity_entity_nameRfield1UnityEntityName"¶
+	UnityName
+Events
+
+Commands2y
+component_extension.schema.improbable.EntityStateé (2'.schema.improbable.player.UnityNameDataRcomponentExtension2t
+event_extension.schema.improbable.EntityEventé (2*.schema.improbable.player.UnityName.EventsReventExtension2|
+command_extension .schema.improbable.EntityCommandé (2,.schema.improbable.player.UnityName.CommandsRcommandExtension:$Âó 
+improbable.player.UnityNameéBBUnityNameOuterClass
+ô	
+!improbable/standard_library.protoschema.improbableimprobable/entity_state.proto"@
+WorkerAttribute-
+field1_name (	BÂónameàóR
+field1Name"r
+WorkerAttributeSet\
+field1_attribute (2".schema.improbable.WorkerAttributeBÂó	attributeRfield1Attribute"‚
+WorkerRequirementSetj
+field1_attribute_set (2%.schema.improbable.WorkerAttributeSetBÂóattribute_setRfield1AttributeSet"×
+ComponentAcl^
+field1_write (20.schema.improbable.ComponentAcl.Field1WriteEntryB	ÂówriteRfield1Writeg
+Field1WriteEntry
+key (Rkey=
+value (2'.schema.improbable.WorkerRequirementSetRvalue:8"Ñ
+EntityAclDataV
+field1_read (2'.schema.improbable.WorkerRequirementSetBÂóreadàóR
+field1Readh
+field2_component_acl (2.schema.improbable.ComponentAclBÂócomponent_aclàóRfield2ComponentAcl"–
+	EntityAcl
+Events
+
+Commands2q
+component_extension.schema.improbable.EntityState2 (2 .schema.improbable.EntityAclDataRcomponentExtension2l
+event_extension.schema.improbable.EntityEvent2 (2#.schema.improbable.EntityAcl.EventsReventExtension2t
+command_extension .schema.improbable.EntityCommand2 (2%.schema.improbable.EntityAcl.CommandsRcommandExtension:Âó
+improbable.EntityAcl2BBStandardLibraryOuterClass
+‡4
+ google/protobuf/descriptor.protogoogle.protobuf"M
+FileDescriptorSet8
+file (2$.google.protobuf.FileDescriptorProtoRfile"ä
+FileDescriptorProto
+name (	Rname
+package (	Rpackage
+
+dependency (	R
+dependency+
+public_dependency
+ (RpublicDependency'
+weak_dependency (RweakDependencyC
+message_type (2 .google.protobuf.DescriptorProtoRmessageTypeA
+	enum_type (2$.google.protobuf.EnumDescriptorProtoRenumTypeA
+service (2'.google.protobuf.ServiceDescriptorProtoRserviceC
+	extension (2%.google.protobuf.FieldDescriptorProtoR	extension6
+options (2.google.protobuf.FileOptionsRoptionsI
+source_code_info	 (2.google.protobuf.SourceCodeInfoRsourceCodeInfo
+syntax (	Rsyntax"÷
+DescriptorProto
+name (	Rname;
+field (2%.google.protobuf.FieldDescriptorProtoRfieldC
+	extension (2%.google.protobuf.FieldDescriptorProtoR	extensionA
+nested_type (2 .google.protobuf.DescriptorProtoR
+nestedTypeA
+	enum_type (2$.google.protobuf.EnumDescriptorProtoRenumTypeX
+extension_range (2/.google.protobuf.DescriptorProto.ExtensionRangeRextensionRangeD
+
+oneof_decl (2%.google.protobuf.OneofDescriptorProtoR	oneofDecl9
+options (2.google.protobuf.MessageOptionsRoptionsU
+reserved_range	 (2..google.protobuf.DescriptorProto.ReservedRangeRreservedRange#
+reserved_name
+ (	RreservedName8
+ExtensionRange
+start (Rstart
+end (Rend7
+ReservedRange
+start (Rstart
+end (Rend"˜
+FieldDescriptorProto
+name (	Rname
+number (RnumberA
+label (2+.google.protobuf.FieldDescriptorProto.LabelRlabel>
+type (2*.google.protobuf.FieldDescriptorProto.TypeRtype
+	type_name (	RtypeName
+extendee (	Rextendee#
+default_value (	RdefaultValue
+oneof_index	 (R
+oneofIndex
+	json_name
+ (	RjsonName7
+options (2.google.protobuf.FieldOptionsRoptions"¶
+Type
+TYPE_DOUBLE
+
+TYPE_FLOAT
+
+TYPE_INT64
+TYPE_UINT64
+
+TYPE_INT32
+TYPE_FIXED64
+TYPE_FIXED32
+	TYPE_BOOL
+TYPE_STRING	
+
+TYPE_GROUP
+
+TYPE_MESSAGE
+
+TYPE_BYTES
+TYPE_UINT32
+	TYPE_ENUM
+TYPE_SFIXED32
+TYPE_SFIXED64
+TYPE_SINT32
+TYPE_SINT64"C
+Label
+LABEL_OPTIONAL
+LABEL_REQUIRED
+LABEL_REPEATED"c
+OneofDescriptorProto
+name (	Rname7
+options (2.google.protobuf.OneofOptionsRoptions"¢
+EnumDescriptorProto
+name (	Rname?
+value (2).google.protobuf.EnumValueDescriptorProtoRvalue6
+options (2.google.protobuf.EnumOptionsRoptions"ƒ
+EnumValueDescriptorProto
+name (	Rname
+number (Rnumber;
+options (2!.google.protobuf.EnumValueOptionsRoptions"§
+ServiceDescriptorProto
+name (	Rname>
+method (2&.google.protobuf.MethodDescriptorProtoRmethod9
+options (2.google.protobuf.ServiceOptionsRoptions"‰
+MethodDescriptorProto
+name (	Rname
+
+input_type (	R	inputType
+output_type (	R
+outputType8
+options (2.google.protobuf.MethodOptionsRoptions0
+client_streaming (:falseRclientStreaming0
+server_streaming (:falseRserverStreaming"‘
+FileOptions!
+java_package (	RjavaPackage0
+java_outer_classname (	RjavaOuterClassname5
+java_multiple_files
+ (:falseRjavaMultipleFilesG
+java_generate_equals_and_hash (:falseRjavaGenerateEqualsAndHash:
+java_string_check_utf8 (:falseRjavaStringCheckUtf8S
+optimize_for	 (2).google.protobuf.FileOptions.OptimizeMode:SPEEDRoptimizeFor
+
+go_package (	R	goPackage5
+cc_generic_services (:falseRccGenericServices9
+java_generic_services (:falseRjavaGenericServices5
+py_generic_services (:falseRpyGenericServices%
+
+deprecated (:falseR
+deprecated/
+cc_enable_arenas (:falseRccEnableArenas*
+objc_class_prefix$ (	RobjcClassPrefix)
+csharp_namespace% (	RcsharpNamespaceX
+uninterpreted_optionç (2$.google.protobuf.UninterpretedOptionRuninterpretedOption":
+OptimizeMode	
+SPEED
+	CODE_SIZE
+LITE_RUNTIME*	è€€€€J&'"Å
+MessageOptions<
+message_set_wire_format (:falseRmessageSetWireFormatL
+no_standard_descriptor_accessor (:falseRnoStandardDescriptorAccessor%
+
+deprecated (:falseR
+deprecated
+	map_entry (RmapEntryX
+uninterpreted_optionç (2$.google.protobuf.UninterpretedOptionRuninterpretedOption*	è€€€€"Ü
+FieldOptionsA
+ctype (2#.google.protobuf.FieldOptions.CType:STRINGRctype
+packed (RpackedG
+jstype (2$.google.protobuf.FieldOptions.JSType:	JS_NORMALRjstype
+lazy (:falseRlazy%
+
+deprecated (:falseR
+deprecated
+weak
+ (:falseRweakX
+uninterpreted_optionç (2$.google.protobuf.UninterpretedOptionRuninterpretedOption"/
+CType
+
+STRING 
+CORD
+STRING_PIECE"5
+JSType
+	JS_NORMAL 
+	JS_STRING
+	JS_NUMBER*	è€€€€"s
+OneofOptionsX
+uninterpreted_optionç (2$.google.protobuf.UninterpretedOptionRuninterpretedOption*	è€€€€"º
+EnumOptions
+allow_alias (R
+allowAlias%
+
+deprecated (:falseR
+deprecatedX
+uninterpreted_optionç (2$.google.protobuf.UninterpretedOptionRuninterpretedOption*	è€€€€"ž
+EnumValueOptions%
+
+deprecated (:falseR
+deprecatedX
+uninterpreted_optionç (2$.google.protobuf.UninterpretedOptionRuninterpretedOption*	è€€€€"œ
+ServiceOptions%
+
+deprecated! (:falseR
+deprecatedX
+uninterpreted_optionç (2$.google.protobuf.UninterpretedOptionRuninterpretedOption*	è€€€€"›
+MethodOptions%
+
+deprecated! (:falseR
+deprecatedX
+uninterpreted_optionç (2$.google.protobuf.UninterpretedOptionRuninterpretedOption*	è€€€€"š
+UninterpretedOptionA
+name (2-.google.protobuf.UninterpretedOption.NamePartRname)
+identifier_value (	RidentifierValue,
+positive_int_value (RpositiveIntValue,
+negative_int_value (RnegativeIntValue!
+double_value (RdoubleValue!
+string_value (RstringValue'
+aggregate_value (	RaggregateValueJ
+NamePart
+	name_part (	RnamePart!
+is_extension (RisExtension"§
+SourceCodeInfoD
+location (2(.google.protobuf.SourceCodeInfo.LocationRlocationÎ
+Location
+path (BRpath
+span (BRspan)
+leading_comments (	RleadingComments+
+trailing_comments (	RtrailingComments:
+leading_detached_comments (	RleadingDetachedComments"Ñ
+GeneratedCodeInfoM
+
+annotation (2-.google.protobuf.GeneratedCodeInfo.AnnotationR
+annotationm
+
+Annotation
+path (BRpath
+source_file (	R
+sourceFile
+begin (Rbegin
+end (RendB[
+com.google.protobufBDescriptorProtosHZ
+descriptor ¢GPBªGoogle.Protobuf.Reflection
+Ï	
+improbable/entity_state.protoschema.improbable google/protobuf/descriptor.proto"
+EntityState*2€€€€J"
+EntityEvent*2€€€€"
+EntityCommand*2€€€€"Å
+EntityComponentUpdate&
+fields_to_clear (RfieldsToClearA
+entity_state (2.schema.improbable.EntityStateRentityStateA
+entity_event (2.schema.improbable.EntityEventRentityEvent"§
+ComponentInfo%
+component_name (	RcomponentName!
+component_id (RcomponentId"
+	queryable (:trueR	queryable(
+synchronized (:trueRsynchronized:S
+schemalang_field_name.google.protobuf.FieldOptions¸Ž (	RschemalangFieldName:`
+schemalang_enum_value_name!.google.protobuf.EnumValueOptions¸Ž (	RschemalangEnumValueName:j
+component_info.google.protobuf.MessageOptions¸Ž (2 .schema.improbable.ComponentInfoRcomponentInfo:O
+entity_position.google.protobuf.FieldOptionsºŽ (:falseRentityPosition:>
+option.google.protobuf.FieldOptions¼Ž (:falseRoption:C
+	entity_id.google.protobuf.FieldOptions½Ž (:falseRentityId:J
+entity_id_key.google.protobuf.FieldOptions¾Ž (:falseRentityIdKey:N
+entity_id_value.google.protobuf.FieldOptions¿Ž (:falseRentityIdValueBBEntityStateProtosZ
+improbable
+‰
+!improbable/math/coordinates.protoschema.improbable.math"7
+Coordinates
+x (Rx
+y (Ry
+z (RzBBCoordinatesProtos
+€
+improbable/math/vector3d.protoschema.improbable.math"4
+Vector3d
+x (Rx
+y (Ry
+z (RzBBVector3dProtos
+€
+improbable/math/vector3f.protoschema.improbable.math"4
+Vector3f
+x (Rx
+y (Ry
+z (RzBBVector3fProtos

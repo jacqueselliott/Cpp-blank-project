@@ -1,0 +1,8 @@
+package improbable.player;
+
+component CppName {
+    // Schema file ID, unique within the project
+    id = 1002;
+
+    string cpp_entity_name = 1;
+}

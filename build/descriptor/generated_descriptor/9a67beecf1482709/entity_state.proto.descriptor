@@ -1,0 +1,24 @@
+
+Ï	
+improbable/entity_state.protoschema.improbable google/protobuf/descriptor.proto"
+EntityState*2€€€€J"
+EntityEvent*2€€€€"
+EntityCommand*2€€€€"Å
+EntityComponentUpdate&
+fields_to_clear (RfieldsToClearA
+entity_state (2.schema.improbable.EntityStateRentityStateA
+entity_event (2.schema.improbable.EntityEventRentityEvent"§
+ComponentInfo%
+component_name (	RcomponentName!
+component_id (RcomponentId"
+	queryable (:trueR	queryable(
+synchronized (:trueRsynchronized:S
+schemalang_field_name.google.protobuf.FieldOptions¸Ž (	RschemalangFieldName:`
+schemalang_enum_value_name!.google.protobuf.EnumValueOptions¸Ž (	RschemalangEnumValueName:j
+component_info.google.protobuf.MessageOptions¸Ž (2 .schema.improbable.ComponentInfoRcomponentInfo:O
+entity_position.google.protobuf.FieldOptionsºŽ (:falseRentityPosition:>
+option.google.protobuf.FieldOptions¼Ž (:falseRoption:C
+	entity_id.google.protobuf.FieldOptions½Ž (:falseRentityId:J
+entity_id_key.google.protobuf.FieldOptions¾Ž (:falseRentityIdKey:N
+entity_id_value.google.protobuf.FieldOptions¿Ž (:falseRentityIdValueBBEntityStateProtosZ
+improbable

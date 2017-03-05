@@ -1,0 +1,52 @@
+==========> Opened at 2017-03-05 02:38:59.9458348 +0000 GMT
+debug Executing [C:\Users\Jacques Elliott\AppData\Local\.improbable\bin\plugins\sdk\10.1.0\sdk.exe plugin_export --log_level=warning]
+debug Current directory = C:\spatial\projects\BlankProject\workers\unity
+debug TOOLBELT_PATH = C:\Users\Jacques Elliott\AppData\Local\.improbable\bin\plugins\sdk\10.1.0
+==========> Opened at 2017-03-05 02:39:00.003438 +0000 GMT
+debug Executing [spatial.exe worker_package unpack-to worker_sdk windows_x86_dll C:\spatial\projects\BlankProject\workers\unity\Assets\Plugins\x86\Improbable\windows_x86_dll]
+debug Current directory = C:\spatial\projects\BlankProject\workers\unity
+debug TOOLBELT_PATH = C:\Users\Jacques Elliott\AppData\Local\.improbable\bin\plugins\sdk\10.1.0
+debug Found version '10.1.0' in file C:\spatial\projects\BlankProject\spatialos.json
+debug Skipping extraction of [C:\Users\Jacques Elliott\AppData\Local\.improbable\toolbelt\cache\worker_package\367c1abb8b7d88bee062f505d02f44a0177678d8\worker_sdk\10.1.0\windows_x86_dll.zip] to C:\spatial\projects\BlankProject\workers\unity\Assets\Plugins\x86\Improbable\windows_x86_dll. Nothing has changed.
+info 'spatial.exe worker_package unpack-to worker_sdk windows_x86_dll C:\spatial\projects\BlankProject\workers\unity\Assets\Plugins\x86\Improbable\windows_x86_dll' succeeded duration=0.0s category=success
+==========> Opened at 2017-03-05 02:39:00.5802847 +0000 GMT
+debug Executing [C:\Users\Jacques Elliott\AppData\Local\.improbable\bin\plugins\sdk\10.1.0\sdk.exe plugin_export --log_level=warning]
+debug Current directory = C:\spatial\projects\BlankProject\workers\unity
+debug TOOLBELT_PATH = C:\Users\Jacques Elliott\AppData\Local\.improbable\bin\plugins\sdk\10.1.0
+==========> Opened at 2017-03-05 02:39:00.6403706 +0000 GMT
+debug Executing [spatial.exe worker_package unpack-to worker_sdk windows_x64_dll C:\spatial\projects\BlankProject\workers\unity\Assets\Plugins\x86_64\Improbable\windows_x64_dll]
+debug Current directory = C:\spatial\projects\BlankProject\workers\unity
+debug TOOLBELT_PATH = C:\Users\Jacques Elliott\AppData\Local\.improbable\bin\plugins\sdk\10.1.0
+debug Found version '10.1.0' in file C:\spatial\projects\BlankProject\spatialos.json
+debug Skipping extraction of [C:\Users\Jacques Elliott\AppData\Local\.improbable\toolbelt\cache\worker_package\6683b1a481a5b0d136ee261c34b859952f7ba2cf\worker_sdk\10.1.0\windows_x64_dll.zip] to C:\spatial\projects\BlankProject\workers\unity\Assets\Plugins\x86_64\Improbable\windows_x64_dll. Nothing has changed.
+info 'spatial.exe worker_package unpack-to worker_sdk windows_x64_dll C:\spatial\projects\BlankProject\workers\unity\Assets\Plugins\x86_64\Improbable\windows_x64_dll' succeeded duration=0.0s category=success
+==========> Opened at 2017-03-05 02:39:06.5497989 +0000 GMT
+debug Executing [C:\Users\Jacques Elliott\AppData\Local\.improbable\bin\plugins\sdk\10.1.0\sdk.exe plugin_export --log_level=warning]
+debug Current directory = C:\spatial\projects\BlankProject\workers\unity
+debug TOOLBELT_PATH = C:\Users\Jacques Elliott\AppData\Local\.improbable\bin\plugins\sdk\10.1.0
+==========> Opened at 2017-03-05 02:39:09.3383091 +0000 GMT
+debug Executing [C:\Users\Jacques Elliott\AppData\Local\.improbable\bin\plugins\sdk\10.1.0\sdk.exe plugin_export --log_level=warning]
+debug Current directory = C:\spatial\projects\BlankProject\workers\unity
+debug TOOLBELT_PATH = C:\Users\Jacques Elliott\AppData\Local\.improbable\bin\plugins\sdk\10.1.0
+==========> Opened at 2017-03-05 02:39:09.4053206 +0000 GMT
+debug Executing [spatial.exe worker_package unpack-to worker_sdk linux_x64_dll C:\spatial\projects\BlankProject\workers\unity\Assets\Plugins\x86_64\Improbable\linux_x64_dll]
+debug Current directory = C:\spatial\projects\BlankProject\workers\unity
+debug TOOLBELT_PATH = C:\Users\Jacques Elliott\AppData\Local\.improbable\bin\plugins\sdk\10.1.0
+debug Found version '10.1.0' in file C:\spatial\projects\BlankProject\spatialos.json
+debug Skipping extraction of [C:\Users\Jacques Elliott\AppData\Local\.improbable\toolbelt\cache\worker_package\14bfb5c2d10170477be701bad689f9361af6ceb5\worker_sdk\10.1.0\linux_x64_dll.zip] to C:\spatial\projects\BlankProject\workers\unity\Assets\Plugins\x86_64\Improbable\linux_x64_dll. Nothing has changed.
+info 'spatial.exe worker_package unpack-to worker_sdk linux_x64_dll C:\spatial\projects\BlankProject\workers\unity\Assets\Plugins\x86_64\Improbable\linux_x64_dll' succeeded duration=0.0s category=success
+==========> Opened at 2017-03-05 02:39:09.9222793 +0000 GMT
+debug Executing [C:\Users\Jacques Elliott\AppData\Local\.improbable\bin\plugins\sdk\10.1.0\sdk.exe plugin_export --log_level=warning]
+debug Current directory = C:\spatial\projects\BlankProject\workers\unity
+debug TOOLBELT_PATH = C:\Users\Jacques Elliott\AppData\Local\.improbable\bin\plugins\sdk\10.1.0
+==========> Opened at 2017-03-05 02:39:09.9878344 +0000 GMT
+debug Executing [spatial.exe worker_package unpack-to worker_sdk windows_x64_dll C:\spatial\projects\BlankProject\workers\unity\Assets\Plugins\x86_64\Improbable\windows_x64_dll]
+debug Current directory = C:\spatial\projects\BlankProject\workers\unity
+debug TOOLBELT_PATH = C:\Users\Jacques Elliott\AppData\Local\.improbable\bin\plugins\sdk\10.1.0
+debug Found version '10.1.0' in file C:\spatial\projects\BlankProject\spatialos.json
+debug Skipping extraction of [C:\Users\Jacques Elliott\AppData\Local\.improbable\toolbelt\cache\worker_package\6683b1a481a5b0d136ee261c34b859952f7ba2cf\worker_sdk\10.1.0\windows_x64_dll.zip] to C:\spatial\projects\BlankProject\workers\unity\Assets\Plugins\x86_64\Improbable\windows_x64_dll. Nothing has changed.
+info 'spatial.exe worker_package unpack-to worker_sdk windows_x64_dll C:\spatial\projects\BlankProject\workers\unity\Assets\Plugins\x86_64\Improbable\windows_x64_dll' succeeded duration=0.0s category=success
+==========> Opened at 2017-03-05 02:39:15.9369666 +0000 GMT
+debug Executing [C:\Users\Jacques Elliott\AppData\Local\.improbable\bin\plugins\sdk\10.1.0\sdk.exe plugin_export --log_level=warning]
+debug Current directory = C:\spatial\projects\BlankProject\workers\unity
+debug TOOLBELT_PATH = C:\Users\Jacques Elliott\AppData\Local\.improbable\bin\plugins\sdk\10.1.0

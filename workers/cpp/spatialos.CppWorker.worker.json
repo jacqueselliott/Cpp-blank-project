@@ -1,0 +1,43 @@
+{
+  "build": {
+    "tasks_filename": "build.json"
+  },
+  "bridge": {
+    "worker_attribute_set": {
+      "attributes": [
+        "cpp"
+      ]
+    },
+    "entity_interest": {
+      "range_entity_interest": {
+        "radius": 200
+      }
+    },
+    "streaming_query": [],
+    "component_delivery": {
+      "default": "RELIABLE_ORDERED",
+      "checkout_all_initially": true
+    }
+  },
+   "managed": {
+       "windows": {
+         "artifact_name": "CppWorker@Windows.zip",
+         "command": "CppWorker@Windows.exe",
+         "arguments": ["${IMPROBABLE_WORKER_ID}"]
+       },
+       "macos": {
+         "artifact_name": "CppWorker@Mac.zip",
+         "command": "CppWorker@Mac",
+         "arguments": ["${IMPROBABLE_WORKER_ID}"]
+       }
+   },
+   "external": {
+    "default": {
+      "run_type": "EXECUTABLE",
+      "windows": {
+        "command": "build/Release/CppWorker.exe",
+        "arguments": ["${IMPROBABLE_WORKER_ID}"]
+      }
+    }
+}
+}
